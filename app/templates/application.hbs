@@ -1,0 +1,11 @@
+{{page-title "EmberQuickstart"}}
+<script src="blockly_compressed.js"></script>
+<script src="blocks_compressed.js"></script>
+
+<div id="blocklyDiv" style="height:480px; width:600px;"></div>
+
+{{outlet}}
+<script>
+
+var workspace = Blockly.inject('blocklyDiv', {toolbox: toolbox});
+</script>
